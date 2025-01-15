@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: SoDoSans, Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.container {
+    height:100vh;
+    width:100%;
+}
+
+/*Header*/
+
+.navbar {
+  border:1px solid rgba(245,242,242,0.93);
+  display:flex;
+  border-bottom-color: rgba(245,242,242,0.93);
+  position: relative;
+  padding-bottom: 5px;
+  font-family: "Viga", serif;
+  color: black;
+}
+.starbucks-logo {
+    height: 45px;
+    width: 45px;
+    margin: 20px 20px 15px 35px;
+}
+.starbucks-logo:hover {
+    cursor: pointer;
+}
+.navbar ul li {
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+}
+.navbar ul li:hover{
+    color: #2f7b33;
+    cursor: pointer;
+}
+.find-store span {
+    vertical-align: middle;
+}
+.find-store:hover {
+    cursor:pointer;
+    color: #2f7b33;
+}
+.find-store {
+    position: absolute;
+    right:260px;
+    top:32px;
+}
+.join-now {
+    position: absolute;
+    right:35px;
+    top:28px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 4px 1rem 4px 1rem;
+    color: white;
+    background-color: black;
+}
+.join-now:hover {
+    cursor: pointer;
+    background-color: #292525;
+}
+.sign-in {
+    position: absolute;
+    right:150px;
+    top:28px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 4px 1rem 4px 1rem;
+}
+.sign-in:hover {
+    cursor: pointer;
+    background-color: azure;
+}
+
+/*Middle Content*/
+
+.mid-section {
+    max-width: 1440px;
+    margin:auto;
+}
+.product img {
+    max-width: 100%;
+    object-fit: contain;
+    height:100%;
+}
+.second-image{
+    margin-right: 50px;
+}
+.product {
+    display:flex;
+    gap: 0px;
+}
+.product-left,.product-right {
+    max-width: 50%;
+    display: flex;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    align-content: stretch;
+    flex-direction: column;
+}
+.product-title {
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.product-content {
+    margin: 40px 0px 40px 0px;
+    display: flex;
+}
+.product-button {
+    border: 1px solid white;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    cursor:pointer;
+}
+.product-button-white {
+    color:white;
+}
+.product-button-black {
+    color: black;
+    border-color: black;
+}
+.product-description {
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    font-size: 24px;
+    margin: 40px 0px 40px 0px;
+}
+.product3{
+    margin-top: 50%;
+}
+.l3, .r3{
+height:42opx;
+}
+.last-content{
+    box-sizing: border-box;
+    background-color: white;
+    padding: 3.2rem 0 3.2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-box{
+    width:646px;
+    height:126px;
+   
+}
+.content-text{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+/*Footer and Social*/
+
+ footer {
+        padding: 24px 0;
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%),
+                0 -2px 2px rgb(0 0 0 / 6%),
+                0 0 2px rgb(0 0 0 / 7%);
+}
+.footer-container {
+    position: relative;
+    padding: 0 40px;
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.footer-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-container ul li{
+    color: rgba(0, 0, 0, 0, 0.56);
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+}
+.footer-container ul li:hover{
+    color: rgba(0, 0, 0, 0.87);
+}
+.links-container{
+    width: 190px;
+    margin-right: 70px;
+}
+footer h3{
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.footer-below{
+    margin-left: 40px;
+    margin-right: 40px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+.social{
+    display: flex;
+    align-items: center;
+}
+.social img{
+    width: 35px;
+    height: 35px;
+}
+.social a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.policy{
+    margin-top:20px;
+    display: block;
+}
+.po{
+    text-decoration: none;
+    color:black;
+    font-weight: 400;
+    line-height: 3;
+}
+.policy a:hover{
+    text-decoration: underline;
+}
+.final{
+    margin-top: 20px;
+    font-size: small;
+    color:#acacac;
+}
